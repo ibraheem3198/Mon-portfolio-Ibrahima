@@ -288,6 +288,7 @@ img {
   margin-bottom: 1rem;
 }
 
+
 .about__social{
   display: flex;
   justify-content: center;
@@ -330,6 +331,33 @@ img {
   font-size: var(--small-font-size);
   margin-block: 1rem 2rem;
 }
+
+.about__phone {
+  color: var(--white-color); /* Assure que le texte est blanc */
+  font-size: var(--normal-font-size); /* Ajuste la taille si nécessaire */
+  text-align: center; /* Centre le texte horizontalement */
+  display: flex;
+  justify-content: center; /* Centre le contenu horizontalement */
+  align-items: center; /* Centre le contenu verticalement */
+  margin-top: 1rem; /* Ajoute un espace au-dessus pour plus de clarté */
+  margin-bottom: 1.5rem;
+
+}
+
+.ri-phone-line{
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.about__phone-link {
+  color: inherit; /* Utilise la couleur parent pour garder le lien blanc */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.about__phone-link:hover {
+  color: var(--first-color-alt); /* Change la couleur au survol si désiré */
+}
+
 
 .about .button{
   width: 100%;
