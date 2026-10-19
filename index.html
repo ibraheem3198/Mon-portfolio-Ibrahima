@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-   <html lang="en">
+   <html lang="fr">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,51 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website - Ibrahima</title>
+      <!--=============== SEO ===============-->
+      <title>Ibrahima S. Thiam — Développeur Full Stack & Designer UX/UI | Paris</title>
+      <meta name="description" content="Portfolio d'Ibrahima S. Thiam, développeur Full Stack et designer UX/UI en région parisienne : sites web, applications mobiles, identités visuelles et gestion de projet.">
+      <meta name="author" content="Ibrahima S. Thiam">
+      <link rel="canonical" href="https://portfolio-ibrahima-sakho.netlify.app/">
+      <meta name="theme-color" content="#050308">
+
+      <!-- Aperçu lors du partage (LinkedIn, WhatsApp, Facebook, X) -->
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="fr_FR">
+      <meta property="og:site_name" content="Ibrahima S. Thiam — Portfolio">
+      <meta property="og:title" content="Ibrahima S. Thiam — Développeur Full Stack & Designer UX/UI">
+      <meta property="og:description" content="Sites web, applications mobiles, identités visuelles et gestion de projet. Découvrez mes projets et mon parcours.">
+      <meta property="og:url" content="https://portfolio-ibrahima-sakho.netlify.app/">
+      <meta property="og:image" content="https://portfolio-ibrahima-sakho.netlify.app/assets/img/og-image.jpg">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="630">
+      <meta property="og:image:alt" content="Ibrahima S. Thiam, développeur Full Stack et designer UX/UI">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Ibrahima S. Thiam — Développeur Full Stack & Designer UX/UI">
+      <meta name="twitter:description" content="Sites web, applications mobiles, identités visuelles et gestion de projet.">
+      <meta name="twitter:image" content="https://portfolio-ibrahima-sakho.netlify.app/assets/img/og-image.jpg">
+
+      <!-- Fiche "Person" pour Google (données structurées) -->
+      <script type="application/ld+json">
+      {
+         "@context": "https://schema.org",
+         "@type": "Person",
+         "name": "Ibrahima S. Thiam",
+         "alternateName": ["Ibrahima Thiam", "Ibrahima Sakho Thiam"],
+         "url": "https://portfolio-ibrahima-sakho.netlify.app/",
+         "image": "https://portfolio-ibrahima-sakho.netlify.app/assets/img/og-image.jpg",
+         "jobTitle": "Développeur Full Stack & Designer UX/UI",
+         "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Île-de-France",
+            "addressCountry": "FR"
+         },
+         "knowsAbout": ["Développement web", "Développement mobile", "React", "React Native", "UX/UI Design", "Design graphique", "Gestion de projet", "Méthode agile Scrum"],
+         "sameAs": [
+            "https://www.linkedin.com/in/ibrahima-thiam-519690151/",
+            "https://github.com/ibraheem3198"
+         ]
+      }
+      </script>
    </head>
    <body>
       <!--==================== NAV ====================-->
@@ -60,7 +104,7 @@
             <div class="home__container container grid">
                <!--===== PERFIL =====-->
               <div class="perfil">
-                <img src="assets/img/home-profil .png" alt="" class="perfil__img">
+                <img src="assets/img/home-profil .png" alt="Ibrahima S. Thiam, développeur et designer" class="perfil__img">
 
                 <div class="perfil__data">
                   <h1 class="perfil__name">Ibrahima S. <br> Thiam</h1>
@@ -76,28 +120,26 @@
              <div class="info">
                <div class="info__data">
                   <div class="info__circle"></div>
-                     <h1 class="info__name">Ibrahima S. Thiam</h1>
+                     <p class="info__name">Ibrahima S. Thiam</p>
                </div>
-               <div class="info__image">
-                  <img src="assets/img/home-profil-1.png" alt="image" class="info__img">
-               </div>
+
+                  <p class="info__role">Développeur & Web Designer</p>
+
                   <p class="info__description">
                      Développeur passionné, je conçois et développe des sites web avec des interfaces intuitives et engageantes, alliant esthétique et performance.
                   </p>
 
-                  <a href="assets/pdf/Ib.Sa-Thiam-CV_Dév.pdf" download target="blank" class="button button__black">Télécharger CV</a>
+                  <a href="assets/pdf/CV_Ibrahima_Thiam.pdf" download target="blank" class="button button__black">Télécharger CV</a>
 
 
              </div>
 
                <!--===== ABOUT =====-->
              <div class="about">
-               <h3 class="about__name">
-                  Ibrahima S. Thiam - <b>Développeur & Web Designer</b>
-               </h3>
+               <h3 class="about__title">À propos</h3>
 
                <p class="about__description">
-                  Basé en région parisienne, je suis en formation en développement Full Stack et Tech Lead. Malgré cela, j'ai déjà quelques années d'expérience en développement web et design, avec des projets réussis alliant compétences front-end et partiellement back-end, tout en mettant l'accent sur des interfaces utilisateur intuitives.
+                  Basé en région parisienne, je suis développeur et designer, en formation Full Stack & Tech Lead. Je conçois des projets digitaux de bout en bout : identités visuelles, maquettes UX/UI sur Figma, puis développement de sites web et d'applications mobiles. CTO de la startup agritech TAXAWU, je pilote aussi des projets en méthode agile, seul ou en équipe, avec le même objectif : des interfaces claires, utiles et pensées pour leurs utilisateurs.
                </p>
 
                <div class="about__social">
@@ -110,9 +152,8 @@
                   </a>
 
                </div>
-               <div class="about__image">
-                  <img src="assets/img/home-profil-2.png" alt="image" class="about__img">
-               </div>
+
+               <h3 class="about__title">Me contacter</h3>
 
                <p class="about__note">
                   Pour une réponse rapide, n'hésitez pas à m'appeler sur ce numéro ou m'envoyer un e-mail, je vous répondrai dans les plus brefs délais !
@@ -130,23 +171,23 @@
                <h2 class="skills__title">Skills</h2>
 
                <div class="skills__items">
-                  <img src="assets/img/skills-html.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-css.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-javascript.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-react.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-git.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-github.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-tailwind-css.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-figma.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-sass.svg" alt="image" class="skills__item">
-                  <img src="assets/img/php.png" alt="image" class="skills__item">
-                  <img src="assets/img/trello.svg" alt="image" class="skills__item">
-                  <img src="assets/img/wordpress-icon-1.svg" alt="image" class="skills__item">
-                  <img src="assets/img/nodejs-1.svg" alt="image" class="skills__item">
-                  <img src="assets/img/adobe-photoshop-2.svg" alt="image" class="skills__item">
-                  <img src="assets/img/adobe-illustrator-cs6.svg" alt="image" class="skills__item">
-                  <img src="assets/img/canva-1.svg" alt="image" class="skills__item">
-                  <img src="assets/img/skills-gitlab.svg" alt="image" class="skills__item">
+                  <img src="assets/img/skills-html.svg" alt="HTML5" title="HTML5" class="skills__item">
+                  <img src="assets/img/skills-css.svg" alt="CSS3" title="CSS3" class="skills__item">
+                  <img src="assets/img/skills-javascript.svg" alt="JavaScript" title="JavaScript" class="skills__item">
+                  <img src="assets/img/skills-react.svg" alt="React" title="React" class="skills__item">
+                  <img src="assets/img/skills-git.svg" alt="Git" title="Git" class="skills__item">
+                  <img src="assets/img/skills-github.svg" alt="GitHub" title="GitHub" class="skills__item">
+                  <img src="assets/img/skills-tailwind-css.svg" alt="Tailwind CSS" title="Tailwind CSS" class="skills__item">
+                  <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="skills__item">
+                  <img src="assets/img/skills-sass.svg" alt="Sass" title="Sass" class="skills__item">
+                  <img src="assets/img/php.png" alt="PHP" title="PHP" class="skills__item">
+                  <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="skills__item">
+                  <img src="assets/img/wordpress-icon-1.svg" alt="WordPress" title="WordPress" class="skills__item">
+                  <img src="assets/img/nodejs-1.svg" alt="Node.js" title="Node.js" class="skills__item">
+                  <img src="assets/img/adobe-photoshop-2.svg" alt="Photoshop" title="Photoshop" class="skills__item">
+                  <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="skills__item">
+                  <img src="assets/img/canva-1.svg" alt="Canva" title="Canva" class="skills__item">
+                  <img src="assets/img/skills-gitlab.svg" alt="GitLab" title="GitLab" class="skills__item">
                   
                </div>
 
@@ -163,26 +204,299 @@
          <section class="projets section" id="projets">
             <h2 class="section__title">PROJETS RÉCENTS</h2>
 
-            <div class="projects__container container grid">
+            <!-- FILTRES : chaque carte (projet ou expérience) a un attribut data-category.
+                 Catégories possibles : ux-ui, dev, graphique (projets), motion (expériences), gestion
+                 Une carte peut avoir plusieurs catégories, séparées par un espace. Ex : data-category="dev ux-ui"
+                 Lien différent selon le filtre : ajouter data-href-<catégorie>="..." sur les liens de la carte (ex : data-href-ux-ui="...").
+                 Le href normal reste utilisé pour "Tous" et les autres filtres.
+                 Contenu différent selon le filtre : data-hide-for="gestion" sur le contenu normal,
+                 et class="... filter-hidden" data-show-for="gestion" sur le contenu alternatif. -->
+            <div class="filters container" data-filter-group="projects">
+               <button type="button" class="filters__button active-filter" data-filter="all">Tous</button>
+               <button type="button" class="filters__button" data-filter="ux-ui">UX/UI Design</button>
+               <button type="button" class="filters__button" data-filter="dev">Développement</button>
+               <button type="button" class="filters__button" data-filter="graphique">Design graphique</button>
+               <button type="button" class="filters__button" data-filter="gestion">Gestion de projet</button>
+            </div>
 
-               <!--Projet-1--> 
-               <article class="projects__card">
-                  <a href="https://www.figma.com/proto/LDRIqiiomZtrvLWaM7lR9z/Planning-strat%C3%A9gique?page-id=&node-id=404-1385&scaling=scale-down-width&content-scaling=fixed&t=TuMpRgZYRFwY2D20-1" target="_blank" class="projects__image">
-                     <img src="assets/img/Projet-1.png" alt="image" class="projects__img">
+            <div class="projects__container container grid" data-filter-target="projects">
+               <!--Projet : CamFire AI (projet de diplôme Mastère CTO & Tech Lead)-->
+               <article class="projects__card" data-category="dev gestion ux-ui">
+                  <a href="https://51.15.143.236.sslip.io/auth" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-camfire.jpg" alt="Fiche technique CamFire AI" class="projects__img" loading="lazy">
                   </a>
                   <div class="projects__data">
-                     <h3 class="projects__name">3S Product Design</h3>
+                     <h3 class="projects__name">CamFire AI — Projet de diplôme</h3>
                      <p class="projects__description">
-                        Ce projet consistait à développer une stratégie complète pour un site e-commerce spécialisé dans la musique. En tant que studio musical offrant divers services (mixage, beat-making, mastering), l'objectif était de concevoir un site marchand avec une expérience utilisateur fluide, incluant un tunnel d'achat, une charte graphique, et une landing page. L'analyse SWOT a été réalisée pour identifier les forces et faiblesses du projet, tout en utilisant des outils comme Figma, Photoshop pour le design et Trello pour l'organisation.
+                        Projet de fin d’études du Mastère CTO & Tech Lead (Bac+5) à HETIC, réalisé en groupe. CamFire AI détecte de façon précoce les feux de forêt péri-urbains d’Île-de-France grâce à des caméras fixes et à une IA embarquée (YOLOv8, OpenCV) sur Raspberry Pi et NVIDIA Jetson, avec des alertes géolocalisées par email, Discord et sirène. Second du chef de projet, j’ai géré le projet, conçu le design, développé le frontend React/TypeScript et implémenté une authentification 2FA sécurisée.
                      </p>
 
                      <div class="projects__skills">
-                        <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/adobe-photoshop-2.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/trello.svg" alt="image" class="projects__skill">
+                        <img src="assets/img/skills-react.svg" alt="React" title="React" class="projects__skill" loading="lazy">
+                        <img src="assets/img/typescript.svg" alt="TypeScript" title="TypeScript" class="projects__skill" loading="lazy">
+                        <img src="assets/img/python.svg" alt="Python" title="Python" class="projects__skill" loading="lazy">
+                        <img src="assets/img/fastapi.svg" alt="FastAPI" title="FastAPI" class="projects__skill" loading="lazy">
+                        <img src="assets/img/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" class="projects__skill" loading="lazy">
+                        <img src="assets/img/raspberrypi.svg" alt="Raspberry Pi" title="Raspberry Pi" class="projects__skill" loading="lazy">
                      </div>
 
-                     <a href="https://www.figma.com/proto/LDRIqiiomZtrvLWaM7lR9z/Planning-strat%C3%A9gique?page-id=&node-id=404-1385&scaling=scale-down-width&content-scaling=fixed&t=TuMpRgZYRFwY2D20-1" target="_blank" class="projects__button">
+                     <a href="https://51.15.143.236.sslip.io/auth" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le projet</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet-8 : Logo Galerie Sophia-->
+               <article class="projects__card" data-category="graphique">
+                  <div class="projects__image projects__image--logo">
+                     <img src="assets/img/logo-galerie-sophia.png" alt="Logo Galerie Sophia" class="projects__img" loading="lazy">
+                  </div>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Galerie Sophia — Identité visuelle</h3>
+                     <p class="projects__description">
+                        J’ai conçu l’identité visuelle de Galerie Sophia, une marque de parfums en collections privées destinée à une clientèle féminine, notamment au Sénégal et dans la diaspora ouest-africaine. Le logo repose sur un monogramme où le S et le G s’entrelacent en un seul trait continu, associé à une palette chaleureuse de vert, d’ambre et de sable, et à une typographie élégante, pour une identité raffinée, moderne et facile à décliner.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="projects__skill" loading="lazy">
+                        <img src="assets/img/claude.svg" alt="Claude" title="Claude" class="projects__skill" loading="lazy">
+                        <img src="assets/img/canva-1.svg" alt="Canva" title="Canva" class="projects__skill" loading="lazy">
+                     </div>
+                  </div>
+               </article>
+
+               <!--Projet : TAXAWU Site Web & Application Mobile-->
+               <article class="projects__card" data-category="dev gestion">
+                  <a href="https://taxawu.sn/" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-taxawu.jpg" alt="Site web TAXAWU" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name" data-hide-for="gestion">TAXAWU — Site Web & Application Mobile</h3>
+                     <h3 class="projects__name filter-hidden" data-show-for="gestion">TAXAWU — Chef de projet & CTO</h3>
+                     <p class="projects__description" data-hide-for="gestion">
+                        TAXAWU est une startup sénégalaise d’agritech dont je suis le CTO et développeur principal. La plateforme connecte producteurs, transporteurs et acheteurs pour digitaliser les chaînes logistiques agricoles en Afrique de l’Ouest. J’ai conçu et développé le site web vitrine et l’application mobile avec React Native, Expo, TypeScript et Supabase, ainsi que Twilio pour les notifications SMS. Le site est en ligne et l’application Android est quasi finalisée.
+                     </p>
+
+                     <p class="projects__description filter-hidden" data-show-for="gestion">
+                        Chez TAXAWU, je pilote le projet en tant que chef de projet et CTO, aux côtés de mes associés. J’organise le travail de l’équipe en méthode agile Scrum : backlog et sprints sur Trello, répartition des tâches, rituels réguliers et arbitrage des priorités entre le site web et l’application mobile. Ce rôle m’apprend à coordonner une équipe, à faire le lien entre la vision business et la technique, et à tenir le cap jusqu’au lancement.
+                     </p>
+
+                     <div class="projects__skills" data-hide-for="gestion">
+                        <img src="assets/img/skills-react.svg" alt="React" title="React" class="projects__skill" loading="lazy">
+                        <img src="assets/img/expo.svg" alt="Expo" title="Expo" class="projects__skill" loading="lazy">
+                        <img src="assets/img/typescript.svg" alt="TypeScript" title="TypeScript" class="projects__skill" loading="lazy">
+                        <img src="assets/img/supabase.svg" alt="Supabase" title="Supabase" class="projects__skill" loading="lazy">
+                        <img src="assets/img/twilio.svg" alt="Twilio" title="Twilio" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <div class="projects__skills filter-hidden" data-show-for="gestion">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-react.svg" alt="React" title="React" class="projects__skill" loading="lazy">
+                        <img src="assets/img/expo.svg" alt="Expo" title="Expo" class="projects__skill" loading="lazy">
+                        <img src="assets/img/typescript.svg" alt="TypeScript" title="TypeScript" class="projects__skill" loading="lazy">
+                        <img src="assets/img/supabase.svg" alt="Supabase" title="Supabase" class="projects__skill" loading="lazy">
+                        <img src="assets/img/twilio.svg" alt="Twilio" title="Twilio" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://taxawu.sn/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le site</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet-11 : Logo TAXAWU-->
+               <article class="projects__card" data-category="graphique">
+                  <a href="https://taxawu.sn/" target="_blank" class="projects__image projects__image--logo">
+                     <img src="assets/img/logo-taxawu.png" alt="Logo TAXAWU" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">TAXAWU — Identité visuelle</h3>
+                     <p class="projects__description">
+                        J’ai conçu le logo de TAXAWU, une startup sénégalaise d’agritech visant à digitaliser les chaînes logistiques agricoles en Afrique de l’Ouest. Le projet consistait à créer une identité visuelle forte, moderne et ancrée dans le contexte local. Le logo intègre la lettre T stylisée avec une feuille organique, symbole de l’agriculture et de la croissance, en deux tons de vert soigneusement choisis pour évoquer à la fois la nature et la technologie. Le résultat est un logo vectoriel minimaliste, facilement déclinable sur tous les supports — application mobile, site web, et communications officielles.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/pinterest.svg" alt="Pinterest" title="Pinterest" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://taxawu.sn/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le projet</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet : TBEE Plateforme (développement)-->
+               <article class="projects__card" data-category="dev">
+                  <a href="https://platforme-accompagnement-tbee-test.netlify.app/" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-tbee.jpg" alt="Plateforme TBEE" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">TBEE — Plateforme d’accompagnement</h3>
+                     <p class="projects__description">
+                        J’ai conçu et développé seul, de zéro, la plateforme TBEE en 8 mois pendant mon alternance. Elle accompagne les étudiants dans leur recherche d’alternance, avec une attention particulière aux personnes RQTH : formations vidéo, outils personnalisés et ressources adaptées. Maquettée sur Figma et Figma Make, elle repose sur React et Supabase, est déployée sur Netlify et sera prochainement hébergée sur OVH Cloud.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/vscode.svg" alt="VS Code" title="VS Code" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-react.svg" alt="React" title="React" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/supabase.svg" alt="Supabase" title="Supabase" class="projects__skill" loading="lazy">
+                        <img src="assets/img/netlify.svg" alt="Netlify" title="Netlify" class="projects__skill" loading="lazy">
+                        <img src="assets/img/ovh.svg" alt="OVH Cloud" title="OVH Cloud" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://platforme-accompagnement-tbee-test.netlify.app/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le site</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet-7 : Logo TBEE-->
+               <article class="projects__card" data-category="graphique gestion">
+                  <a href="https://platforme-accompagnement-tbee-test.netlify.app/" target="_blank" class="projects__image projects__image--logo">
+                     <img src="assets/img/logo-tbee.png" alt="Logo TBEE" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name" data-hide-for="gestion">TBEE — Identité visuelle</h3>
+                     <h3 class="projects__name filter-hidden" data-show-for="gestion">TBEE — Projet fil rouge en solo</h3>
+                     <p class="projects__description" data-hide-for="gestion">
+                        J’ai participé à la création de l’identité visuelle de TBEE (Trouve, Boost, Entretien, Embauche), une plateforme dédiée à l’accompagnement des candidats dans leur recherche d’alternance. L’objectif était de concevoir une identité graphique moderne, accessible et cohérente avec les valeurs de The Bridge, tout en reflétant une approche pédagogique, bienveillante et tournée vers l’autonomie.
+                     </p>
+
+                     <p class="projects__description filter-hidden" data-show-for="gestion">
+                        Pendant mon alternance, j’ai porté seul le projet TBEE comme fil rouge sur 8 mois, de l’identité visuelle jusqu’à la plateforme d’accompagnement. J’ai découpé le projet en sprints selon la méthode agile Scrum, suivi l’avancement sur Trello et ajusté les priorités au fil des retours. Ce projet au long cours m’a appris à planifier sur la durée, à rester organisé et à mener de front alternance et livraisons.
+                     </p>
+
+                     <div class="projects__skills" data-hide-for="gestion">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <div class="projects__skills filter-hidden" data-show-for="gestion">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-react.svg" alt="React" title="React" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-tailwind-css.svg" alt="Tailwind CSS" title="Tailwind CSS" class="projects__skill" loading="lazy">
+                        <img src="assets/img/supabase.svg" alt="Supabase" title="Supabase" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://platforme-accompagnement-tbee-test.netlify.app/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le projet</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet-9 : Logo STC Energy-->
+               <article class="projects__card" data-category="graphique gestion">
+                  <div class="projects__image projects__image--logo">
+                     <img src="assets/img/logo-stc-energy.png" alt="Logo STC Energy" class="projects__img" loading="lazy">
+                  </div>
+                  <div class="projects__data">
+                     <h3 class="projects__name" data-hide-for="gestion">STC Energy — Identité visuelle</h3>
+                     <h3 class="projects__name filter-hidden" data-show-for="gestion">STC Energy — Gestion de projet</h3>
+                     <p class="projects__description" data-hide-for="gestion">
+                        J’ai conçu le logo de STC Energy, une entreprise spécialisée dans l’efficacité énergétique et la rénovation durable. Le logo associe une flamme à trois couleurs complémentaires : l’orange pour l’énergie, le bleu pour la confiance et le vert pour l’engagement environnemental. Le résultat est une identité moderne et reconnaissable, pensée pour s’adapter au site web et aux supports numériques de l’entreprise.
+                     </p>
+
+                     <p class="projects__description filter-hidden" data-show-for="gestion">
+                        J’ai géré la création de l’identité visuelle de STC Energy, du brief jusqu’à la livraison des fichiers finaux. En suivant la méthode agile Scrum, j’ai avancé par itérations courtes suivies sur Trello : recherche, pistes créatives, présentation au client puis intégration de ses retours à chaque cycle. Ce projet m’a appris à cadrer une demande client, à organiser les allers-retours et à respecter les délais.
+                     </p>
+
+                     <div class="projects__skills" data-hide-for="gestion">
+                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="projects__skill" loading="lazy">
+                        <img src="assets/img/chatgpt.svg" alt="ChatGPT" title="ChatGPT" class="projects__skill" loading="lazy">
+                        <img src="assets/img/pinterest.svg" alt="Pinterest" title="Pinterest" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <div class="projects__skills filter-hidden" data-show-for="gestion">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="projects__skill" loading="lazy">
+                        <img src="assets/img/chatgpt.svg" alt="ChatGPT" title="ChatGPT" class="projects__skill" loading="lazy">
+                        <img src="assets/img/pinterest.svg" alt="Pinterest" title="Pinterest" class="projects__skill" loading="lazy">
+                     </div>
+                  </div>
+               </article>
+
+               <!--Projet-10 : Logo SELF-->
+               <article class="projects__card" data-category="graphique ux-ui gestion">
+                  <a href="https://crown-near-13687716.figma.site/" target="_blank" class="projects__image projects__image--logo">
+                     <img src="assets/img/logo-self.png" alt="Logo SELF" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name" data-hide-for="gestion">SELF — Identité visuelle & Application Santé</h3>
+                     <h3 class="projects__name filter-hidden" data-show-for="gestion">SELF — Projet mené en solo</h3>
+                     <p class="projects__description" data-hide-for="gestion">
+                        J’ai imaginé l’identité visuelle de SELF, une application mobile dédiée à la santé et au suivi des informations personnelles de ses utilisateurs. Le projet avait pour objectif de créer une identité moderne, rassurante et accessible, à travers un logo symbolique associant le cœur et la croix médicale. Le travail s’est étendu à la conception des premières interfaces mobiles, avec une attention particulière portée à l’expérience utilisateur (UX), à l’interface (UI) et à une direction artistique mêlant douceur, clarté et modernité.
+                     </p>
+
+                     <p class="projects__description filter-hidden" data-show-for="gestion">
+                        J’ai mené seul le projet SELF, de l’identité visuelle jusqu’aux premières interfaces mobiles. En méthode agile Scrum, j’ai organisé le travail en sprints sur Trello : recherche et moodboard, création du logo, puis maquettes UX/UI itérées au fil des tests. Ce projet m’a permis de structurer une démarche de design de bout en bout et de gérer mes priorités en autonomie.
+                     </p>
+
+                     <div class="projects__skills" data-hide-for="gestion">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="projects__skill" loading="lazy">
+                        <img src="assets/img/pinterest.svg" alt="Pinterest" title="Pinterest" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <div class="projects__skills filter-hidden" data-show-for="gestion">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="projects__skill" loading="lazy">
+                        <img src="assets/img/pinterest.svg" alt="Pinterest" title="Pinterest" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://crown-near-13687716.figma.site/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le projet</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet-3--> 
+               <article class="projects__card" data-category="dev ux-ui gestion">
+                  <a href="https://arkhe.fr/" data-href-ux-ui="https://www.figma.com/proto/VIunKm1XG4Q99009lHkfsp/Arkh%C3%AA-Ing%C3%A9nierie?node-id=83-226&viewport=239%2C358%2C0.1&t=2LqC4roWJQqQC8VF-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=83%3A226&page-id=47%3A33" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-3.jpg" alt="Aperçu du site Arkhê Ingénierie" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name" data-hide-for="gestion">Arkhê Website</h3>
+                     <h3 class="projects__name filter-hidden" data-show-for="gestion">Arkhê — Projet mené en solo</h3>
+                     <p class="projects__description" data-hide-for="gestion">
+                        J'ai conçu et développé le nouveau site d'Arkhê Ingénierie en solo lors de ma période de stage de 2024 en utilisant HTML5, CSS3, JavaScript et PHP pour le back-end, en intégrant un système de gestion de formulaire sécurisé avec reCAPTCHA. Le site, optimisé pour le desktop et le mobile, propose une navigation fluide et intuitive, avec des animations CSS et JavaScript pour améliorer l'expérience utilisateur. J'ai également utilisé Figma pour le design et GitLab pour la gestion des versions. Le projet est hébergé sur OVH pour garantir une disponibilité optimale du site.
+                     </p>
+
+                     <p class="projects__description filter-hidden" data-show-for="gestion">
+                        Lors de mon stage chez Arkhê Ingénierie, j’ai mené seul la refonte du site en deux mois, du design jusqu’à la mise en ligne. J’ai organisé le travail en méthode agile Scrum : backlog et sprints sur Trello, priorisation des fonctionnalités et points réguliers avec l’équipe pour valider chaque étape. Ce projet m’a appris à travailler en autonomie, à gérer mon temps et à tenir une deadline serrée.
+                     </p>
+
+                     <div class="projects__skills" data-hide-for="gestion">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-html.svg" alt="HTML5" title="HTML5" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-css.svg" alt="CSS3" title="CSS3" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-javascript.svg" alt="JavaScript" title="JavaScript" class="projects__skill" loading="lazy">
+                        <img src="assets/img/php.png" alt="PHP" title="PHP" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-gitlab.svg" alt="GitLab" title="GitLab" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <div class="projects__skills filter-hidden" data-show-for="gestion">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-html.svg" alt="HTML5" title="HTML5" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-css.svg" alt="CSS3" title="CSS3" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-javascript.svg" alt="JavaScript" title="JavaScript" class="projects__skill" loading="lazy">
+                        <img src="assets/img/php.png" alt="PHP" title="PHP" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-gitlab.svg" alt="GitLab" title="GitLab" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://arkhe.fr/" data-href-ux-ui="https://www.figma.com/proto/VIunKm1XG4Q99009lHkfsp/Arkh%C3%AA-Ing%C3%A9nierie?node-id=83-226&viewport=239%2C358%2C0.1&t=2LqC4roWJQqQC8VF-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=83%3A226&page-id=47%3A33" target="_blank" class="projects__button">
                         <i class="ri-link"></i>
                         <span>Visitez le projet</span>
                      </a>
@@ -190,9 +504,9 @@
                </article>
 
                <!--Projet-2--> 
-               <article class="projects__card">
-                  <a href="https://www.figma.com/proto/ynONpb2LPMyDVPu7Cv1f5g/Design-Le-Parc-des-perroquets?page-id=0%3A1&node-id=14-179&node-type=frame&viewport=278%2C-444%2C0.06&t=E4Q7TqBXiFyCw06p-1&scaling=scale-down&content-scaling=responsive&starting-point-node-id=21%3A251" target="_blank" class="projects__image">
-                     <img src="assets/img/Projet-2.png" alt="image" class="projects__img">
+               <article class="projects__card" data-category="ux-ui">
+                  <a href="https://www.figma.com/proto/ynONpb2LPMyDVPu7Cv1f5g/Design-Le-Parc-des-perroquets?node-id=14-179&viewport=307%2C-1745%2C0.2&t=hd7jYBDfCcTZUy6b-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=21%3A251&page-id=0%3A1" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-2.jpg" alt="Aperçu du projet Le parc des perroquets" class="projects__img" loading="lazy">
                   </a>
                   <div class="projects__data">
                      <h3 class="projects__name">Le parc des perroquets Product Design</h3>
@@ -201,8 +515,8 @@
                      </p>
 
                      <div class="projects__skills">
-                        <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/canva-1.svg" alt="image" class="projects__skill">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/canva-1.svg" alt="Canva" title="Canva" class="projects__skill" loading="lazy">
                      </div>
 
                      <a href="https://www.figma.com/proto/ynONpb2LPMyDVPu7Cv1f5g/Design-Le-Parc-des-perroquets?page-id=0%3A1&node-id=14-179&node-type=frame&viewport=278%2C-444%2C0.06&t=E4Q7TqBXiFyCw06p-1&scaling=scale-down&content-scaling=responsive&starting-point-node-id=21%3A251" target="_blank" class="projects__button">
@@ -212,61 +526,10 @@
                   </div>
                </article>
 
-               <!--Projet-3--> 
-               <article class="projects__card">
-                  <a href="http://tedceif.cluster027.hosting.ovh.net/index.html" target="_blank" class="projects__image">
-                     <img src="assets/img/Projet-3.png" alt="image" class="projects__img">
-                  </a>
-                  <div class="projects__data">
-                     <h3 class="projects__name">Arkhê Website</h3>
-                     <p class="projects__description">
-                        J'ai conçu et développé le nouveau site d'Arkhê Ingénierie en solo récemment lors de ma période de stage en utilisant HTML5, CSS3, JavaScript et PHP pour le back-end, en intégrant un système de gestion de formulaire sécurisé avec reCAPTCHA. Le site, optimisé pour le desktop et le mobile, propose une navigation fluide et intuitive, avec des animations CSS et JavaScript pour améliorer l'expérience utilisateur. J'ai également utilisé Figma pour le design et GitLab pour la gestion des versions. Le projet est hébergé sur OVH pour garantir une disponibilité optimale du site.
-                     </p>
-
-                     <div class="projects__skills">
-                        <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-html.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-css.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-javascript.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/php.png" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-gitlab.svg" alt="image" class="projects__skill">
-                     </div>
-
-                     <a href="http://tedceif.cluster027.hosting.ovh.net/index.html" target="_blank" class="projects__button">
-                        <i class="ri-link"></i>
-                        <span>Visitez le projet</span>
-                     </a>
-                  </div>
-               </article>
-
-               <!--Projet-4--> 
-               <article class="projects__card">
-                  <a href="https://ettinablaison.com/" target="_blank" class="projects__image">
-                     <img src="assets/img/Projet-4.png" alt="image" class="projects__img">
-                  </a>
-                  <div class="projects__data">
-                     <h3 class="projects__name">Ettina Blaison Product Design</h3>
-                     <p class="projects__description">
-                        J'ai travaillé sur la refonte de l'expérience utilisateur du site ettinablaison.com, pour une marque française souhaitant passer du textile à la céramique et accroître son audience, notamment masculine. L'objectif était d'améliorer la navigation, de repenser la charte graphique, et d'optimiser l'interface utilisateur (UI) pour rendre l'identité de la marque plus distincte. Nous avons également révisé le parcours utilisateur, ajouté des avis clients, et optimisé la présentation des produits pour offrir une expérience plus engageante et fluide.
-                     </p>
-
-                     <div class="projects__skills">
-                        <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/canva-1.svg" alt="image" class="projects__skill">
-                     </div>
-
-                     <a href="https://ettinablaison.com/" target="_blank" class="projects__button">
-                        <i class="ri-link"></i>
-                        <span>Visitez le projet</span>
-                     </a>
-                  </div>
-               </article>
-
-
                <!--Projet-5--> 
-               <article class="projects__card">
+               <article class="projects__card" data-category="ux-ui gestion">
                   <a href="https://www.figma.com/proto/bOIAAZysWcNRYEfDwrXtd5/Projet-Intensif---Fin-d'ann%C3%A9e-2024?page-id=410%3A767&node-id=436-468&node-type=frame&viewport=1229%2C1392%2C0.19&t=BM8Pk734rSQl8XHQ-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=698%3A10895" target="_blank" class="projects__image">
-                     <img src="assets/img/Projet-5.png" alt="image" class="projects__img">
+                     <img src="assets/img/Projet-5.jpg" alt="Aperçu du projet Laurent Badier Design" class="projects__img" loading="lazy">
                   </a>
                   <div class="projects__data">
                      <h3 class="projects__name">Laurent Badier Product Design</h3>
@@ -275,10 +538,10 @@
                      </p>
 
                      <div class="projects__skills">
-                        <img src="assets/img/skills-figma.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/adobe-photoshop-2.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/canva-1.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/trello.svg" alt="image" class="projects__skill">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-photoshop-2.svg" alt="Photoshop" title="Photoshop" class="projects__skill" loading="lazy">
+                        <img src="assets/img/canva-1.svg" alt="Canva" title="Canva" class="projects__skill" loading="lazy">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
                      </div>
 
                      <a href="https://www.figma.com/proto/bOIAAZysWcNRYEfDwrXtd5/Projet-Intensif---Fin-d'ann%C3%A9e-2024?page-id=410%3A767&node-id=436-468&node-type=frame&viewport=1229%2C1392%2C0.19&t=BM8Pk734rSQl8XHQ-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=698%3A10895" target="_blank" class="projects__button">
@@ -288,26 +551,72 @@
                   </div>
                </article>
 
+               <!--Projet-1--> 
+               <article class="projects__card" data-category="ux-ui gestion">
+                  <a href="https://www.figma.com/proto/LDRIqiiomZtrvLWaM7lR9z/Planning-strat%C3%A9gique?page-id=&node-id=404-1385&scaling=scale-down-width&content-scaling=fixed&t=TuMpRgZYRFwY2D20-1" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-1.jpg" alt="Aperçu du projet 3S Product Design" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">3S Product Design</h3>
+                     <p class="projects__description">
+                        Ce projet consistait à développer une stratégie complète pour un site e-commerce spécialisé dans la musique. En tant que studio musical offrant divers services (mixage, beat-making, mastering), l'objectif était de concevoir un site marchand avec une expérience utilisateur fluide, incluant un tunnel d'achat, une charte graphique, et une landing page. L'analyse SWOT a été réalisée pour identifier les forces et faiblesses du projet, tout en utilisant des outils comme Figma, Photoshop pour le design et Trello pour l'organisation.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-photoshop-2.svg" alt="Photoshop" title="Photoshop" class="projects__skill" loading="lazy">
+                        <img src="assets/img/trello.svg" alt="Trello" title="Trello" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://www.figma.com/proto/LDRIqiiomZtrvLWaM7lR9z/Planning-strat%C3%A9gique?page-id=&node-id=404-1385&scaling=scale-down-width&content-scaling=fixed&t=TuMpRgZYRFwY2D20-1" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le projet</span>
+                     </a>
+                  </div>
+               </article>
+
+               <!--Projet-4--> 
+               <article class="projects__card" data-category="ux-ui">
+                  <a href="https://ettinablaison.com/" target="_blank" class="projects__image">
+                     <img src="assets/img/Projet-4.jpg" alt="Aperçu du projet Ettina Blaison" class="projects__img" loading="lazy">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Ettina Blaison Product Design</h3>
+                     <p class="projects__description">
+                        J'ai travaillé sur la refonte de l'expérience utilisateur du site ettinablaison.com, pour une marque française souhaitant passer du textile à la céramique et accroître son audience, notamment masculine. L'objectif était d'améliorer la navigation, de repenser la charte graphique, et d'optimiser l'interface utilisateur (UI) pour rendre l'identité de la marque plus distincte. Nous avons également révisé le parcours utilisateur, ajouté des avis clients, et optimisé la présentation des produits pour offrir une expérience plus engageante et fluide.
+                     </p>
+
+                     <div class="projects__skills">
+                        <img src="assets/img/skills-figma.svg" alt="Figma" title="Figma" class="projects__skill" loading="lazy">
+                        <img src="assets/img/canva-1.svg" alt="Canva" title="Canva" class="projects__skill" loading="lazy">
+                     </div>
+
+                     <a href="https://ettinablaison.com/" target="_blank" class="projects__button">
+                        <i class="ri-link"></i>
+                        <span>Visitez le projet</span>
+                     </a>
+                  </div>
+               </article>
 
                <!--Projet-6--> 
-               <article class="projects__card">
+               <article class="projects__card" data-category="dev">
                   <a href="https://jayma-sn.netlify.app/" target="_blank" class="projects__image">
-                     <img src="assets/img/Projet-6.png" alt="image" class="projects__img">
+                     <img src="assets/img/Projet-6.jpg" alt="Aperçu du site Jayma" class="projects__img" loading="lazy">
                   </a>
                   <div class="projects__data">
                      <h3 class="projects__name">Jayma Website</h3>
                      <p class="projects__description">
-                        Jayma est une plateforme e-commerce dédiée à la vente de vêtements en ligne, principalement en Afrique, où les plateformes de commerce en ligne sont encore rares. Le projet a été développé en utilisant des technologies comme React, JavaScript, HTML et CSS, avec une attention particulière portée à l'ergonomie et à l'expérience utilisateur. Parmi les fonctionnalités développées, on trouve la gestion du panier, le stockage local pour sauvegarder les articles sélectionnés, et une option de livraison express. Ce projet a permis de surmonter des défis techniques tout en offrant une solution innovante pour le marché africain. Il est important de préciser que ce projet est personnel et encore inachevé.
+                        Jayma est une plateforme e-commerce dédiée à la vente de vêtements en ligne, principalement en Afrique, où les plateformes de commerce en ligne sont encore rares. Ceci est mon premier projet React. Il a été développé en utilisant des technologies comme React, JavaScript, HTML et CSS, avec une attention particulière portée à l'ergonomie et à l'expérience utilisateur. Parmi les fonctionnalités développées, on trouve la gestion du panier, le stockage local pour sauvegarder les articles sélectionnés, et une option de livraison express. Ce projet a permis de surmonter des défis techniques tout en offrant une solution innovante pour le marché africain. Il est important de préciser que ce projet est personnel et est toujours inachevé.
                      </p>
 
                      <div class="projects__skills">
-                        <img src="assets/img/skills-react.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-github.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-javascript.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-html.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/skills-css.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/adobe-photoshop-2.svg" alt="image" class="projects__skill">
-                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="image" class="projects__skill">
+                        <img src="assets/img/skills-react.svg" alt="React" title="React" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-github.svg" alt="GitHub" title="GitHub" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-javascript.svg" alt="JavaScript" title="JavaScript" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-html.svg" alt="HTML5" title="HTML5" class="projects__skill" loading="lazy">
+                        <img src="assets/img/skills-css.svg" alt="CSS3" title="CSS3" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-photoshop-2.svg" alt="Photoshop" title="Photoshop" class="projects__skill" loading="lazy">
+                        <img src="assets/img/adobe-illustrator-cs6.svg" alt="Illustrator" title="Illustrator" class="projects__skill" loading="lazy">
                      </div>
 
                      <a href="https://jayma-sn.netlify.app/" target="_blank" class="projects__button">
@@ -399,10 +708,96 @@
          <section class="experiences section" id="experiences">
             
             <h2 class="section__title">EXPÉRIENCES PROS</h2>
-            <div class="experience__container container grid">
 
-                <!--expériences 1-->
-               <article class="experience__card">
+            <!-- Catégories des expériences : pro (Professionnelles et Freelance), perso (Personnelles) -->
+            <div class="filters container" data-filter-group="experiences">
+               <button type="button" class="filters__button active-filter" data-filter="all">Tous</button>
+               <button type="button" class="filters__button" data-filter="pro">Professionnelles et Freelance</button>
+               <button type="button" class="filters__button" data-filter="perso">Personnelles</button>
+            </div>
+
+            <div class="experience__container container grid" data-filter-target="experiences">
+
+               <!--expérience : The Bridge École Entreprises (alternance)-->
+               <article class="experience__card" data-category="pro">
+                 <h2 class="experience__company">The Bridge École Entreprises</h2>
+
+                 <div class="experience__data">
+                  <h3 class="experience__profession">Développeur web / Product & Project Manager</h3>
+                  <span class="experience__date">10/2025-12/2026</span>
+                  <p class="experience__description">
+                     Au sein de The Bridge École Entreprises, j’ai contribué à plusieurs projets digitaux en intervenant sur le développement web, la gestion de projet, l’automatisation et la création de contenus pédagogiques. J’ai assuré la maintenance et l’évolution du site web sous Framer, avec un travail sur le SEO et le suivi des performances. J’ai également conçu des automatisations internes pour les services Admissions et Pédagogie avec Airtable, Make et n8n, et participé au développement d’un chatbot Slack destiné à faciliter les échanges entre les étudiants et l’équipe pédagogique. En parallèle, j’ai piloté la conception de TBEE, une plateforme d’accompagnement des candidats en alternance, de la création des maquettes UX/UI et de l’identité visuelle au développement avec React et Supabase, jusqu’à la production de contenus pédagogiques vidéo et documentaires.
+                  </p>
+                 </div>
+               </article>
+
+               <!--expérience : Galerie Sophia-->
+               <article class="experience__card" data-category="pro">
+                 <h2 class="experience__company">Galerie Sophia</h2>
+
+                 <div class="experience__data">
+                  <h3 class="experience__profession">Designer graphique — Freelance</h3>
+                  <span class="experience__date">10/2026</span>
+                  <p class="experience__description">
+                     En freelance, j’ai conçu l’identité visuelle complète de Galerie Sophia, une marque de parfums en collections privées : choix du nom, logo monogramme, palette, typographie et slogan, jusqu’à la déclinaison sur des supports concrets comme les sachets et les vidéos pour les réseaux sociaux. Cette mission m’a permis d’accompagner une cliente de l’idée jusqu’à une marque prête à être lancée.
+                  </p>
+                 </div>
+               </article>
+
+               <!--expérience : CamFire AI-->
+               <article class="experience__card" data-category="perso">
+                 <h2 class="experience__company">CamFire AI</h2>
+
+                 <div class="experience__data">
+                  <h3 class="experience__profession">Second chef de projet / Développeur frontend</h3>
+                  <span class="experience__date">03/2026-10/2026</span>
+                  <p class="experience__description">
+                     Projet de diplôme du Mastère CTO & Tech Lead à HETIC, réalisé en groupe : un système de détection précoce des feux de forêt par caméras et IA embarquée. Second du chef de projet, j’ai participé au pilotage de l’équipe, conçu le design, développé le frontend en React/TypeScript et implémenté l’authentification à deux facteurs (2FA) de la plateforme.
+                  </p>
+                 </div>
+               </article>
+
+               <!--expérience : TAXAWU-->
+               <article class="experience__card" data-category="perso">
+                 <h2 class="experience__company">TAXAWU</h2>
+
+                 <div class="experience__data">
+                  <h3 class="experience__profession">CTO & Chef de projet</h3>
+                  <span class="experience__date">05/2026-09/2026</span>
+                  <p class="experience__description">
+                     Avec mes associés, j’ai cofondé TAXAWU, une startup sénégalaise d’agritech qui digitalise les chaînes logistiques agricoles en Afrique de l’Ouest. En tant que CTO et chef de projet, j’ai organisé le travail de l’équipe en méthode agile, conçu l’identité visuelle et développé le site web ainsi que l’application mobile avec React Native, Expo et Supabase.
+                  </p>
+                 </div>
+               </article>
+
+               <!--expérience : SELF-->
+               <article class="experience__card" data-category="pro">
+                 <h2 class="experience__company">SELF</h2>
+
+                 <div class="experience__data">
+                  <h3 class="experience__profession">Designer UX/UI & Identité visuelle — Freelance</h3>
+                  <span class="experience__date">12/2025-02/2026</span>
+                  <p class="experience__description">
+                     En freelance, j’ai mené seul le projet SELF, une application mobile dédiée à la santé et au suivi des informations personnelles. J’ai créé l’identité visuelle, avec un logo associant le cœur et la croix médicale, puis conçu les premières interfaces mobiles sur Figma, en travaillant l’expérience utilisateur et une direction artistique douce, claire et rassurante.
+                  </p>
+                 </div>
+               </article>
+
+               <!--expérience : STC Energy-->
+               <article class="experience__card" data-category="pro">
+                 <h2 class="experience__company">STC Energy</h2>
+
+                 <div class="experience__data">
+                  <h3 class="experience__profession">Designer graphique — Freelance</h3>
+                  <span class="experience__date">09/2025</span>
+                  <p class="experience__description">
+                     En freelance, j’ai conçu le logo et l’identité visuelle de STC Energy, une entreprise spécialisée dans l’efficacité énergétique et la rénovation durable. Du brief jusqu’à la livraison des fichiers finaux, j’ai avancé par itérations avec le client pour aboutir à une identité moderne, pensée pour son site web et ses supports numériques.
+                  </p>
+                 </div>
+               </article>
+
+               <!--expériences 1-->
+               <article class="experience__card" data-category="pro">
                  <h2 class="experience__company">Arkhê Ingénierie</h2>
                  
                  <div class="experience__data">
@@ -415,8 +810,8 @@
                  </div>
                </article>
 
-                <!--expériences 2-->
-                <article class="experience__card">
+               <!--expériences 2-->
+                <article class="experience__card" data-category="pro">
                   <h2 class="experience__company">SheSound</h2>
                   
                   <div class="experience__data">
@@ -428,8 +823,8 @@
                   </div>
                 </article>
 
-                 <!--expériences 3-->
-               <article class="experience__card">
+               <!--expériences 3-->
+               <article class="experience__card" data-category="pro">
                   <h2 class="experience__company">Octopus IT</h2>
                   
                   <div class="experience__data">
@@ -441,8 +836,8 @@
                   </div>
                 </article>
 
-                 <!--expériences 4-->
-               <article class="experience__card">
+               <!--expériences 4-->
+               <article class="experience__card" data-category="perso">
                   <h2 class="experience__company">Jayma</h2>
                   
                   <div class="experience__data">
@@ -483,7 +878,7 @@
       <footer class="footer">
           <div class="footer__container container grid">
             <div class="footer__content grid">
-               <a href="#" class="footer__logo"><img src="/assets/img/Favicon.png" alt="image" class="logo__footer"></a>
+               <a href="#" class="footer__logo"><img src="assets/img/Favicon.png" alt="Logo Ibrahima S. Thiam" class="logo__footer"></a>
 
                <ul class="footer__links">
 
