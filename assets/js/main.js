@@ -20,7 +20,10 @@ const sendEmail = (e) =>{
 
      // Clear input fields
        contactForm.reset()
-   }, () =>{
+   }, (error) =>{
+     // Log the real EmailJS error (visible in the browser console, F12)
+     console.error('EmailJS :', error)
+
      // Show error message
      contactMessage.textContent = 'Message non envoyé (erreur de service) ❌'
    })
